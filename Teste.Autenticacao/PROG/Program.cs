@@ -10,14 +10,22 @@ namespace PROG
     {
         static void Main()
         {
-            var url = string.Empty;
+            var url = "http://192.168.200.152:8080/TesteAutenticacao/Testar";
             var requisicao = new Requisicao();
-            var retorno = requisicao.ExecutarPost<TextoDTO, TextoDTO>(url, ObterMensagemDeEnvio());
-            Console.WriteLine(retorno.Texto);
+
+            while(true)
+            {
+                var mensagem = ObterMensagemDeEnvio();
+                if (mensagem.Texto.ToUpper() == "SAIR")
+                    break;
+                var retorno = requisicao.ExecutarPost<TextoDTO, TextoDTO>(url, mensagem, "compuletra", "vistoriapro");
+                Console.WriteLine(retorno.Texto);
+            }
         }
         static TextoDTO ObterMensagemDeEnvio()
         {
-            var mensagem = Console.ReadLine();
+            var mensagem  = "Ola mundo seguro!";
+            //var mensagem = Console.ReadLine();
             return new TextoDTO()
             {
                 Texto = mensagem
