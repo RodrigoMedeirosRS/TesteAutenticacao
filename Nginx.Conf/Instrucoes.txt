@@ -2,7 +2,7 @@ para gerar o htpassawd
 
 sudo apt update 
 sudo apt full-upgrade
-sudo apt install -f apache2
+sudo apt install -f apache2-utils
 
 na pasta /etc/conf.d/
 sudo htpassawd -c ./htpassawd usuario
