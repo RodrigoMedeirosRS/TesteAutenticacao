@@ -1,0 +1,3 @@
+[submodule "Teste.Autenticacao/BibliotecaViva.LIB"]
+	path = Teste.Autenticacao/BibliotecaViva.LIB
+	url = https://github.com/RodrigoMedeirosRS/BibliotecaViva.LIB.git
