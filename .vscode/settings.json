@@ -6,6 +6,8 @@
     "Teste.Autenticacao\\DTO\\bin": true,
     "Teste.Autenticacao\\DTO\\obj": true,
     "Teste.Autenticacao\\BLL\\obj": true,
-    "Teste.Autenticacao\\BLL\\bin": true
+    "Teste.Autenticacao\\BLL\\bin": true,
+    "Teste.Autenticacao\\PROG\\bin": true,
+    "Teste.Autenticacao\\PROG\\obj": true
   }
 }
