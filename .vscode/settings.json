@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    "Teste.Autenticacao\\API\\bin": true,
+    "Teste.Autenticacao\\API\\obj": true,
+    ".vscode": true,
+    "Teste.Autenticacao\\DTO\\bin": true,
+    "Teste.Autenticacao\\DTO\\obj": true,
+    "Teste.Autenticacao\\BLL\\obj": true,
+    "Teste.Autenticacao\\BLL\\bin": true
+  }
+}
